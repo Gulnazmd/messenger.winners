@@ -1,0 +1,32 @@
+.main-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+:root {
+  --color-light-blue: #009DAE;
+  --color-orange: #F8A488;
+}
+.form {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px grey;
+  width: 350px;
+  margin: 20px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  padding: 20px;
+}
+.title {
+    display: block;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link {
+  color: var(--color-orange);
+  text-decoration: none;
+  }
