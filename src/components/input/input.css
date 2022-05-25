@@ -13,21 +13,21 @@
   border: 1px solid #bdbdbd;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &__label {
+    font-size: 17px;
+    color: var(--color-light-blue);
+    margin-bottom: 8px;
+    padding: 5px;
+  }
 }
 
-  .input:focus-visible {
+.input:focus-visible {
 
-      color: #212529;
-      background-color: #fff;
-      border-color: #bdbdbd;
-      outline: 0;
-      box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 
-  }
-
-  .input__label {
-      font-size: 17px;
-      color: var(--color-light-blue);
-      margin-bottom: 8px;
-      padding: 5px;
-  }
+}

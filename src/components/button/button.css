@@ -5,14 +5,12 @@
   font: inherit;
   border: 1px solid #F8A488;
   background-color: transparent;
-  color: #F8A488;;
+  color: #F8A488;
   cursor: pointer;
   outline: none;
   border-radius: 7px;
-}
-
-.button:hover,
-.button:active {
-  color: white;
-  background-color: var(--color-orange);
+    &:hover {
+      color: white;
+      background-color: var(--color-orange);
+    }
 }
