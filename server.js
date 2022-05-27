@@ -1,5 +1,4 @@
 require('dotenv').config()
-require('handlebars');
 const express = require('express');
 
 const app = express();

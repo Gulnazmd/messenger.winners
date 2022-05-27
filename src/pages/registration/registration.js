@@ -1,4 +1,4 @@
-import Handlebars from 'Handlebars';
+import Handlebars from 'handlebars';
 import registrationTmpl from './registration.tmpl';
 
 const contentHTML = Handlebars.compile(registrationTmpl)({
